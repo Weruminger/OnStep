@@ -55,6 +55,17 @@
 
   #include "HAL_STM32F1/HAL_STM32F1.h"
 
+#elif defined(__LPC1768__)
+  // LPC1768 boards, following variants:
+  //
+  // STM32103RC: 72MHz, 256K flash, 48K RAM (requires pin changes in the default Pins.STM32.h)
+  // STM32103RE: 72MHz, 512K flash, 64K RAM (requires pin changes in the default Pins.STM32.h)
+  // STM32103VC: 72MHz, 256K flash, 48K RAM
+  // STM32103VE: 72MHz, 512K flash, 64K RAM
+  // STM32103ZE: 72MHz, 512K flash, 64K RAM
+
+  #include "HAL_LPC1768/HAL_LPC1768.h"
+
 #elif defined(__SAM3X8E__)
   // Arduino Due
   #include "HAL_Due/HAL_Due.h"
