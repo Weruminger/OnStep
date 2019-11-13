@@ -10,7 +10,7 @@
 //
 // *** USE AT YOUR OWN RISK ***
 
-#define LPC1768_ON      //  <- Turn _ON to use LPC1768 based board like Re-ARM
+#define LPC1768_OFF     //  <- Turn _ON to use LPC1768 based board like Re-ARM
 
 #if defined(LPC1768_ON)
 // -------------------------------------------------------------------------------------------------------------------------

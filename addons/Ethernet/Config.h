@@ -10,7 +10,7 @@
 
 #define SERIAL_BAUD 57600          // Default=57600, use 19200 for talking to OnStep on a Mega2560
 
-#define PASSWORD "password"        // Default="password", Not currently used
+#define PASSWORD "W3rum1ng3r#1963!"        // Default="password", Not currently used
 
 #define SPECIAL_CHARS_ON           // Default=_ON, _OFF for standard ASCII special symbols (compatibility)
 #define ADVANCED_CHARS_ON          // Default=_ON, _OFF for standard "RA/Dec" instead of symbols
@@ -71,10 +71,10 @@
 byte mac[] = { 0xDE, 0xAD, 0xBE, 0xEF, 0xFE, 0xED };
 
 // the IP addresses below will be dependent on your local network:
-IPAddress ip(192, 168, 1, 55);
-IPAddress myDns(192,168, 1, 1);
-IPAddress gateway(192, 168, 1, 1);
-IPAddress subnet(255, 255, 255, 0);
+IPAddress ip(172, 16, 10, 55);
+IPAddress myDns(172, 16, 0, 3);
+IPAddress gateway(172, 16, 0, 3);
+IPAddress subnet(255, 255, 0, 0);
 
 // --------------------------------------------------------------------------------------
 // --------------------------------------------------------------------------------------
